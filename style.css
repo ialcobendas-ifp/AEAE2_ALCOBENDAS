@@ -1,0 +1,180 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url(/img/fons.jpg);
+
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+@keyframes cambiarImagenes {
+    0%, 11.1%  { background-image: url(/img/ani/back.png); }
+    11.2%, 22.2% { background-image: url(/img/ani/bean.png); }
+    22.3%, 33.3% { background-image: url(/img/ani/bond.png); }
+    33.4%, 44.4% { background-image: url(/img/ani/break.png); }
+    44.5%, 55.5% { background-image: url(/img/ani/ghost.png); }
+    55.6%, 66.6% { background-image: url(/img/ani/pulp.png); }
+    66.7%, 77.7% { background-image: url(/img/ani/rider.png); }
+    77.8%, 88.8% { background-image: url(/img/ani/taxi.png); }
+    88.9%, 100%  { background-image: url(/img/ani/team.png); }
+}
+
+
+
+.cap {
+    
+    height: 598px;
+    background: 
+}
+
+
+
+
+#titol{
+    margin:0;
+    color:black;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+
+.letra-gris {
+    color: grey;
+}
+
+#titol:hover{
+    opacity: 100%;
+}
+
+.cotxe{
+    height:500px;
+    width:960px;
+    background-image: url(/img/ani/rider.png);
+    margin: auto;
+    background-position: 100%;
+    animation: cambiarImagenes 27s infinite  ;
+}
+
+.cos {
+    height: 780px;
+    margin: auto;
+    width: fit-content;
+    
+    
+}
+
+.contenedor {
+    margin: auto;
+    float: left;
+    width: 960px;
+ 
+    
+}
+
+.caja {
+    height:240px;
+    width:300px;
+    background-color: white;
+    float:left;
+    margin: 10px 10px 10px 10px;
+    opacity:50%;
+}
+
+.caja:hover{
+    opacity: 100%;
+    animation: girar 3s linear ;
+    filter: hue-rotate(180deg);
+}
+
+.imagen{
+    height: 200px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#imagen1 {
+    background-image: url(/img/small/small_pulp.jpg);
+    background-size: cover;
+}
+
+#imagen2 {
+    height: 200px;
+    background-image: url(/img/small/small_taxi.jpg);
+    background-size:  cover;
+}
+
+#imagen3 {
+    height: 200px;
+    background-image: url(/img/small/small_bond.jpg);
+    background-size: cover;
+}
+
+#imagen4 {
+    height: 200px;
+    background-image: url(/img/small/small_ghost.jpg);
+    background-size: cover;
+}
+
+#imagen5 {
+    height: 200px;
+    background-image: url(/img/small/small_bean.jpg);
+    background-size: cover;
+}
+
+#imagen6 {
+    height: 200px;
+    background-image: url(/img/small/small_back.jpg);
+    object-fit: cover;
+}
+
+#imagen7 {
+    height: 200px;
+    background-image: url(/img/small/small_rider.jpg);
+    object-fit: cover;
+}
+
+#imagen8 {
+    height: 200px;
+    background-image: url(/img/small/small_team.jpg);
+    object-fit: cover;
+}
+
+#imagen9 {
+    height: 200px;
+    background-image: url(/img/small/small_break.jpg);
+    object-fit: cover;
+}
+
+
+
+.texto {
+ font-size: 1rem;
+ margin-top: 10px;
+ margin-left: 5px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.peu {
+    height: 220px;
+    
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    background-image: url(./img/logo_carsandfilms.png);
+    margin: auto;
+}
+
+
+
+
